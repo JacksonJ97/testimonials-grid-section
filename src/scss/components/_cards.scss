@@ -2,11 +2,10 @@
 
 // Default card style
 .cards {
-  background-color: $moderateViolet; // don't forget to remove this
   margin-bottom: 2em;
-  padding: 2em;
+  padding: 2.25em;
   border-radius: 8px;
-  box-shadow: 0 4px 8px 4px rgba($color: #000000, $alpha: 0.2);
+  box-shadow: 0 8px 16px -8px rgba($color: #000000, $alpha: 0.2);
 }
 
 .card-title {
@@ -23,22 +22,30 @@
 // Custom card styles
 .card-1 {
   margin-top: 5em;
-  color: $white;
+  color: $lightGrayishBlue;
+  background-image: url(~images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 0%;
+  background-color: $moderateViolet;
 }
 
 .card-2 {
-  color: $white;
+  background-color: $veryDarkGrayishBlue;
+  color: $lightGrayishBlue;
 }
 
 .card-3 {
-  color: $white;
+  background-color: $white;
+  color: $veryDarkGrayishBlue;
 }
 
 .card-4 {
+  background-color: $veryDarkBlackishBlue;
   color: $white;
 }
 
 .card-5 {
-  color: $white;
+  background-color: $white;
+  color: $veryDarkGrayishBlue;
   margin-bottom: 5em;
 }

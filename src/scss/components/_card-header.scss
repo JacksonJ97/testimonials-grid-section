@@ -1,14 +1,24 @@
+@use "abstracts/variables" as *;
+
 .card-header {
   display: flex;
 }
 
 .card-header img {
+  border: solid 1px $lightGray;
   border-radius: 50%;
+  height: 36px;
+  width: 36px;
 }
 
 .user-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 1em;
+  margin-left: 1.25em;
+}
+
+.user-title {
+  font-size: 0.75rem;
+  opacity: 50%;
 }
