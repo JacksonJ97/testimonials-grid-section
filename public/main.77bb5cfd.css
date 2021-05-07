@@ -38,6 +38,30 @@ body {
   padding: 2em;
   border-radius: 8px;
   box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: all 300ms ease-in-out;
+}
+
+.cards::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  transition: opacity 300ms ease-in-out;
+}
+
+.cards:hover {
+  transform: scale(1.05);
+}
+
+.cards:hover::after {
+  opacity: 1;
 }
 
 .card-title {
