@@ -1,0 +1,26 @@
+@use "abstracts/variables" as *;
+
+// Default card style
+.cards {
+  background-color: $moderateViolet;
+  margin-bottom: 2em;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 4px rgba($color: #000000, $alpha: 0.2);
+}
+
+// Custom card styles
+.card-1 {
+}
+
+.card-2 {
+}
+
+.card-3 {
+}
+
+.card-4 {
+}
+
+.card-5 {
+}
