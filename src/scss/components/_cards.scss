@@ -17,10 +17,12 @@
 
 .card-body {
   margin-top: 1.5em;
+  opacity: 70%;
 }
 
 // Custom card styles
 .card-1 {
+  margin-top: 5em;
   color: $white;
 }
 
@@ -38,4 +40,5 @@
 
 .card-5 {
   color: $white;
+  margin-bottom: 5em;
 }
