@@ -20,6 +20,8 @@ body {
 .user-details {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin-left: 1em;
 }
 
 .cards {
@@ -28,6 +30,36 @@ body {
   padding: 2em;
   border-radius: 8px;
   box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-top: 1em;
+}
+
+.card-body {
+  margin-top: 1.5em;
+}
+
+.card-1 {
+  color: white;
+}
+
+.card-2 {
+  color: white;
+}
+
+.card-3 {
+  color: white;
+}
+
+.card-4 {
+  color: white;
+}
+
+.card-5 {
+  color: white;
 }
 
 body {
