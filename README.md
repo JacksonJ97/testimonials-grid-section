@@ -35,7 +35,7 @@ Users should be able to:
 ### Built with
 
 - HTML5
-- Sass
+- SCSS
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-In this project I reinforced my knowledge of CSS Grid and animations in CSS.
+In this project, I reinforced my knowledge of CSS Grid and animations in CSS.
 
 ## Author
 
